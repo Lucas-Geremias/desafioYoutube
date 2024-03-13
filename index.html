@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>YouTube</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/output.css" />
+  </head>
+  <body>
+    <header
+      class="flex w-full h-14 justify-between items-center border-b-gray-400"
+    >
+      <div class="flex items-center">
+        <i class="fa-solid fa-bars ps-6 content-center"></i>
+        <img
+          class="h-5 w-24 ml-10"
+          src="assets/youtube1.png"
+          alt="Logo youtube"
+        />
+      </div>
+
+      <div class="flex items-center">
+        <form action="">
+          <input type="text" class="w-80 h-10 rounded-l-lg border" />
+        </form>
+        <button class="border border-gray-200 rounded-r-lg px-2 py-2 h-10">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+      </div>
+
+      <div class="flex items-center gap-4">
+        <i class="fa-solid fa-video"></i>
+        <i class="fa-regular fa-bell"></i>
+        <img
+          class="w-8 h-8 rounded-full mr-6"
+          src="https://avatars.githubusercontent.com/u/44319767?v=4"
+          alt="LOGO"
+        />
+      </div>
+    </header>
+
+
+    <!--CONTEUDO-->
+    <main class="relative mt-8 ml-16 w-[60rem] h-[47rem]">
+      <div>
+        <iframe
+          class="w-[60rem] h-[31rem]"
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/FBMMNBOXins?si=RO0eb8fs5u4VBGq0"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+      </div>
+
+      <h1 class="mt-4 mb-4 font-medium text-xl">
+        Semana Front-end | Dia 01: Construindo uma Landing Page no Mundo
+        Invertido com HTML e CSS
+      </h1>
+
+      <div class="flex items-center justify-between">
+        <div class="flex gap-1 items-center">
+          <img
+            class="w-10 h-10"
+            src="assets/ChannelAvatar.png"
+            alt="ChannelAvatar"
+          />
+          <div>
+            <span>DIO</span>
+            <p>83,3 mil inscritos</p>
+          </div>
+        </div>
+        <button class="bg-[#cc0000] px-9 py-3 rounded text-white">
+          INSCREVA-SE
+        </button>
+
+        <div class="flex items-center gap-1">
+          <i class="fa-regular fa-thumbs-up"></i>
+          <p>2 mil</p>
+        </div>
+
+        <div class="flex items-center gap-1">
+          <i class="fa-regular fa-thumbs-down"></i>
+          <p>Não gostei, Asmei</p>
+        </div>
+
+        <div class="flex items-center gap-1">
+          <i class="fa-solid fa-share-nodes"></i>
+          <p>Compartilhar</p>
+        </div>
+
+        <div class="flex items-center gap-1">
+          <i class="fa-solid fa-download"></i>
+          <p>Downloader</p>
+        </div>
+      </div>
+
+      <div class="bg-gray-100">
+        <p class="mt-4">
+          28.418 visualizações Transmitido ao vivo em 23 ago. de 2022
+        </p>
+        <p class="mt-4">
+          Inicie uma aventura imersiva no mundo do Front-end com HTML e CSS.
+          Para isso, criaremos uma landing page com a temática da série Stranger
+          Things, a qual contará com a implementação de um theme switcher (light
+          e dark) para explorarmos os mistérios do mundo invertido.
+        </p>
+      </div>
+    </main>
+    <!--FIM CONTEUDO-->
+
+     <!--SIDE BAR-->
+     <div class="absolute top-[5.5rem] left-[65rem]">
+      <div class="flex mb-4 gap-2">
+        <img src="assets/Thumb.png" alt="thumb" />
+        <div class="flex flex-col w-[196px] h-[89px] gap-1">
+        <h1 class="text-xs font-bold">Geração Tech Unimed - BH - Ciência de Dados</h1>
+        <strong class="text-xs">DigitalInnovationOne</strong>
+        <p class="text-xs ">2,1 mil visualizações </p>
+        <p class="text-xs"> Transmitido há 2 dias</p>
+        </div>
+      </div>
+
+      <div class="flex mb-4 gap-2">
+        <img src="assets/Thumb.png" alt="thumb" />
+        <div class="flex flex-col w-[196px] h-[89px]">
+        <h1 class="text-xs">Geração Tech Unimed - BH - Ciência de Dados</h1>
+        <p class="text-xs">DigitalInnovationOne</p>
+        <p class="text-xs">2,1 mil visualizações Transmitido há 2 dias</p>
+        </div>
+      </div>
+
+      <div class="flex mb-4 gap-2">
+        <img src="assets/Thumb.png" alt="thumb" />
+        <div class="flex flex-col w-[196px] h-[89px]">
+        <h1 class="text-xs">Geração Tech Unimed - BH - Ciência de Dados</h1>
+        <p class="text-xs">DigitalInnovationOne</p>
+        <p class="text-xs">2,1 mil visualizações Transmitido há 2 dias</p>
+        </div>
+      </div>
+
+      <div class="flex mb-4 gap-2">
+        <img src="assets/Thumb.png" alt="thumb" />
+        <div class="flex flex-col w-[196px] h-[89px]">
+        <h1 class="text-xs">Geração Tech Unimed - BH - Ciência de Dados</h1>
+        <p class="text-xs">DigitalInnovationOne</p>
+        <p class="text-xs">2,1 mil visualizações Transmitido há 2 dias</p>
+        </div>
+      </div>
+
+      <div class="flex mb-4 gap-2">
+        <img src="assets/Thumb.png" alt="thumb" />
+        <div class="flex flex-col w-[196px] h-[89px]">
+        <h1 class="text-xs">Geração Tech Unimed - BH - Ciência de Dados</h1>
+        <p class="text-xs">DigitalInnovationOne</p>
+        <p class="text-xs">2,1 mil visualizações Transmitido há 2 dias</p>
+        </div>
+      </div>
+
+      <div class="flex mb-4 gap-2">
+        <img src="assets/Thumb.png" alt="thumb" />
+        <div class="flex flex-col w-[196px] h-[89px]">
+        <h1 class="text-xs">Geração Tech Unimed - BH - Ciência de Dados</h1>
+        <p class="text-xs">DigitalInnovationOne</p>
+        <p class="text-xs">2,1 mil visualizações Transmitido há 2 dias</p>
+        </div>
+      </div>
+
+      <div class="flex mb-4 gap-2">
+        <img src="assets/Thumb.png" alt="thumb" />
+        <div class="flex flex-col w-[196px] h-[89px]">
+        <h1 class="text-xs font-bold">Geração Tech Unimed - BH - Ciência de Dados</h1>
+        <p class="text-xs">DigitalInnovationOne</p>
+        <p class="text-xs">2,1 mil visualizações Transmitido há 2 dias</p>
+        </div>
+      </div>
+
+      <div class="flex mb-4 gap-2">
+        <img src="assets/Thumb.png" alt="thumb" />
+        <div class="flex flex-col w-[196px] h-[89px]">
+        <h1 class="text-xs font-bold">Geração Tech Unimed - BH - Ciência de Dados</h1>
+        <strong class="text-xs">DigitalInnovationOne</strong>
+        <span class="text-xs ">2,1 mil visualizações </span>
+        <span> Transmitido há 2 dias</span>
+        </div>
+      </div>
+
+      
+    <!--fim sidebAR-->
+
+
+  </body>
+</html>
